@@ -27,5 +27,6 @@ with col3 :
 
 if button_1:
     st.write(array)
+    st.balloons()
 
     

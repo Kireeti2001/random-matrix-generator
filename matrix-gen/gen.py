@@ -24,7 +24,6 @@ with col5:
     pass
 with col3 :
     button_1 = st.button('APPLY')
-    st.write("click on APPLY")
 
 if button_1:
     st.write(array)

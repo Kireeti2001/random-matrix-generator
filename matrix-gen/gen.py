@@ -6,7 +6,7 @@ st.markdown("<h1 style='text-align: center; color: orange;'>RANDOM MATRIX GENERA
 a=st.number_input("Enter number of rows",2)
 b=st.number_input("Enter number of columns",2)
 min=st.number_input("Enter MINIMUM value",1)
-max=st.number_input("Enter MAXIMUM value",1)
+max=st.number_input("Enter MAXIMUM value",2)
 
 array=np.random.randint(low=min,high=max,size=(a,b))
 
